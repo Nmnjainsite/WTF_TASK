@@ -1,0 +1,81 @@
+.bg-purple-gradient {
+    background: linear-gradient(to right, purple, violet);
+    transition: transform 0.5s;
+  }
+
+  .bg-purple-gradient:hover{
+    transform: scale(1.05);
+  }
+  
+  .bg-blue-gradient {
+    background: linear-gradient(to right, blue, lightblue);
+    transition: transform 0.5s;
+  }
+
+  .bg-blue-gradient:hover{
+    transform: scale(1.05);
+  }
+  
+  .bg-aqua-gradient {
+    background: linear-gradient(to right, aqua, lightcyan);
+    transition: transform 0.5s;
+  }
+
+  .bg-aqua-gradient:hover{
+    transform: scale(1.05);
+  }
+  
+  .bg-peach-gradient {
+    background: linear-gradient(to right, peachpuff, palegoldenrod);
+    transition: transform 0.5s;
+  }
+
+  .bg-peach-gradient:hover{
+    transform: scale(1.05);
+  }
+  
+  .bg-pink-gradient {
+    background: linear-gradient(to right, pink, lightpink);
+    transition: transform 0.5s;
+  }
+
+  .bg-pink-gradient:hover{
+    transform: scale(1.05);
+  }
+  
+  .bg-orange-gradient {
+    background: linear-gradient(to right, orange, lightyellow);
+    transition: transform 0.5s;
+  }
+
+  .bg-orange-gradient:hover{
+    transform: scale(1.05);
+  }
+  
+  .bg-green-gradient {
+    background: linear-gradient(to right, lightgreen,white);
+    transition: transform 0.5s;
+  }
+
+  .bg-green-gradient:hover{
+    transform: scale(1.05);
+  }
+  
+  .bg-yellow-gradient {
+    background: linear-gradient(to right, yellow, lightyellow);
+    transition: transform 0.5s;
+  }
+
+  .bg-yellow-gradient:hover{
+    transform: scale(1.05);
+  }
+
+  .bg-maroon-gradient{
+    background: linear-gradient(to right,lightgrey,maroon);
+    transition: transform 0.5s;
+  }
+  
+  .bg-maroon-gradient:hover{
+    transform: scale(1.05);
+  }
+  
