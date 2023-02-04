@@ -383,7 +383,7 @@ export default function SingleProductCard({ itemData }) {
           </Container>
         ) : (
           <div className="d-flex justify-content-center align-items-center">
-          <Spinner animation="border" variant="primary" />
+          <Spinner animation="border" variant="primary"/>
         </div>
         )}
       </div>
