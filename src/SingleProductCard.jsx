@@ -5,14 +5,24 @@ import "./SingleProductCard.css";
 export default function SingleProductCard({ itemData }) {
   console.log(itemData);
   return (
-    <div style={{ background: "black", color: "#ffff", width: "100%", height:"100%" }}>
+    <div
+      style={{
+        background: "black",
+        color: "#ffff",
+        width: "100%",
+        height: "100%"
+      }}
+    >
       <BrandExample />
       <Card>
-        <Card.Img variant="top" src="https://d1e9q0asw0l2kk.cloudfront.net/benefits_upload/YS1qEd33xRFjU/1658256769149-Facebook%20post%20-%2010.png"/>
+        <Card.Img
+          variant="top"
+          src="https://d1e9q0asw0l2kk.cloudfront.net/benefits_upload/YS1qEd33xRFjU/1658256769149-Facebook%20post%20-%2010.png"
+        />
       </Card>
       <div>
         {itemData ? (
-          <Container className="mt-5 mb-5">
+          <Container className="mt-5">
             <Row>
               <Col>
                 {" "}
@@ -140,7 +150,7 @@ export default function SingleProductCard({ itemData }) {
                     padding: "0.5rem",
                     borderRadius: "0.3rem",
                     background: "#262626",
-                    marginBottom:"1rem"
+                    marginBottom: "1rem"
                   }}
                 >
                   <h1 style={{ textAlign: "center" }}>Choose Memebership</h1>
@@ -383,8 +393,8 @@ export default function SingleProductCard({ itemData }) {
           </Container>
         ) : (
           <div className="d-flex justify-content-center align-items-center">
-          <Spinner animation="border" variant="primary"/>
-        </div>
+            <Spinner animation="border" variant="primary" />
+          </div>
         )}
       </div>
     </div>
